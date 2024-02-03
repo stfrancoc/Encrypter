@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.LOGO{
+    height: 8vh;
+}
+
+.titulo{
+    margin-left: 15px;
+    font-size: 2.5rem;
+}
+
+#formulario{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.opciones{
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.opciones input{
+    border: solid rgb(146, 143, 143) 1px;
+    border-radius: 5px;
+    padding: 0.3rem;
+}
+
+#texto{
+    width: 80%;
+    height: 70%;
+    border: none;
+    text-align: start;
+}
